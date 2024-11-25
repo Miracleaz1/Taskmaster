@@ -17,3 +17,6 @@
     "test": "mocha --timeout 5000"
   }
 }
+"scripts": {
+  "start": "app.js"
+}
