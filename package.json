@@ -9,12 +9,11 @@
   },
   "devDependencies": {
     "chai": "^5.1.2",
+    "chai-http": "^5.1.1",
     "mocha": "^10.8.2",
     "supertest": "^7.0.0"
   },
- "jest": {
-  "testEnvironment": "jsdom"
-}
-
-
+  "scripts": {
+    "test": "mocha --timeout 5000"
+  }
 }
