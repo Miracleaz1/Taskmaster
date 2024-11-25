@@ -14,9 +14,7 @@
     "supertest": "^7.0.0"
   },
   "scripts": {
-    "test": "mocha --timeout 5000"
+    "test": "mocha --timeout 5000",
+    "start": "app.js"
   }
-}
-"scripts": {
-  "start": "app.js"
 }
